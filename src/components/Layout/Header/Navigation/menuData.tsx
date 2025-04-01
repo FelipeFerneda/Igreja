@@ -7,7 +7,7 @@ export interface HeaderItem {
 
 export const headerData: HeaderItem[] = [
     { label: "Home", href: "#home-section" },
-    { label: "Doacoes", href: "#about-section" },
-    { label: "Sobre Nos", href: "#cook-section" },
-    { label: "Login", href: "#gallery-section" },
+    { label: "Doacoes", href: "#donate-section" },
+    { label: "Sobre Nos", href: "#about-section" },
+    { label: "Entrar", href: "#gallery-section" },
 ];

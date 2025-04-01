@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import Link from 'next/link';
 import { FeaturesData } from "@/app/api/data";
 import { Icon } from "@iconify/react";
@@ -6,12 +6,12 @@ import { Icon } from "@iconify/react";
 const Cards = ()=> {
     return(
         <section className="bg-gray-700">
-            <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md' id='about-section'>
+            <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md pb-5' id='donate-section'>
                 <div className='text-center mb-14 py-10'>
-                    <p className='dark:text-sky-200 font-normal mb-3 tracking-widest uppercase'>Sobre</p>
+                    <p className='dark:text-sky-200 font-normal mb-9 tracking-[0.8rem] uppercase'>Sobre</p>
                     <h2 className='text-3xl lg:text-5xl font-semibold text-black dark:text-white lg:max-w-60% mx-auto'>Lorem ipsum dolor sit amet, consectetur.</h2>
                 </div>
-                <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-15 gap-x-5 mt-32'>
+                <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-15 gap-x-5 mt-15'>
                     {FeaturesData.map((items, i) =>(
                         <div className='p-8 relative rounded-3xl bg-gradient-to-b from-black/5 to-gray-400 dark:from-gray-600 dark:to-gray-800' key={i}>
                             <h3 className='text-2xl text-black dark:text-white font-semibold text-center mt-16'>{items.heading}</h3>

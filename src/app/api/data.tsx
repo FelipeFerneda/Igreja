@@ -4,7 +4,7 @@ export const FeaturesData: {
     subheading: string;
 }[] = [
     {
-        imgSrc: '/images/Cards/food-donation.svg',
+        imgSrc: '/Images/Cards/donate.svg',
         heading: 'Doacoes',
         subheading: 'texto de exemplo, mudar depois'
     },

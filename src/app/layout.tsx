@@ -4,6 +4,7 @@ import "./globals.css";
 import React from "react";
 import { ThemeProvider } from "next-themes";
 import Header from "@/components/Layout/Header";
+import Footer from "@/components/Layout/Footer";
 const font = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"], })
 
 export const metadata: Metadata = {
@@ -26,6 +27,7 @@ export default function RootLayout({
           >
               <Header />
               {children}
+              <Footer />
           </ThemeProvider>
       </body>
     </html>
