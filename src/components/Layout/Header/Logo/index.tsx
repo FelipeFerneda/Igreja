@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-export default function Logo(){
+const Logo = () => {
     return(
         <Link href='/' className='flex items-center text-black dark:text-white text-2xl font-semibold gap-4'>
             <Image src={'./images/Logo/Logo.svg'}
@@ -15,3 +14,4 @@ export default function Logo(){
         </Link>
     )
 }
+export default Logo

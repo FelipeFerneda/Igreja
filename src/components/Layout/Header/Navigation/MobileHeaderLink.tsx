@@ -4,7 +4,7 @@ import Logo from "@/components/Layout/Header/Logo";
 import { headerData } from "@/components/Layout/Header/Navigation/menuData";
 import HeaderLink from "@/components/Layout/Header/Navigation/HeaderLink";
 
-export default function MobileHeaderLink() {
+const MobileHeaderLink = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -49,3 +49,5 @@ export default function MobileHeaderLink() {
         </header>
     );
 }
+
+export default MobileHeaderLink
