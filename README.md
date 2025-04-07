@@ -1,4 +1,11 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Front end do projeto da exp. criativa, utilizei Next.js (React) e Tailwind para auxiliar na estilizacao do site.
+Landingpage basica para o site da Igreja, por enquanto esta com textos genericos mas na versao final vai ser estar tudo certo.
+Integrantes:
+Felipe dos Santos Ferneda
+Felipe Schneider
+Francisco Martins
+Pedro Dallanora
+Pedro Felix Silva
 
 ## Getting Started
 
